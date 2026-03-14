@@ -1,22 +1,73 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#d8d8d8;
+    padding:40px;
+}
+
+.titulo{
+    color:#7b61ff;
+    font-weight:bold;
+    margin-bottom:10px;
 }
 
 .card{
-width:300px;
-margin:100px auto;
-padding:20px;
-background:white;
-border-radius:10px;
-box-shadow:0px 0px 10px rgba(0,0,0,0.2);
-text-align:center;
+    width:500px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
 }
 
-h1{
-color:#333;
+.card-header{
+    background:#ea5455;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding:15px;
 }
 
-p{
-color:#666;
+.numero{
+    border:2px solid white;
+    padding:6px 10px;
+    border-radius:4px;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.agenda{
+    flex:1;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.codigo{
+    margin-right:20px;
+    font-weight:bold;
+}
+
+.icono{
+    font-size:18px;
+}
+
+.card-body{
+    padding:20px;
+    color:#555;
+}
+
+.card-footer{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+    border-top:1px solid #ddd;
+    font-size:14px;
+}
+
+.updated{
+    color:#a600a6;
+    border:1px solid #a600a6;
+    padding:2px 6px;
+}
+
+.fecha{
+    color:#777;
 }
